@@ -74,7 +74,8 @@ const Navbar = () => {
                                 <motion.a
                                     whileHover={{ scale: 1.05 }}
                                     whileTap={{ scale: 0.95 }}
-                                    href="#contact"
+                                    href="https://us06web.zoom.us/j/6317858117?pwd=b7ZNbpWixPcKhSSwYoSNQoE9M9zlCf.1&omn=81506785363"
+                                    target="_blank"
                                     className="hidden lg:flex items-center gap-1.5 px-4 py-2 rounded-full font-bold text-xs shadow-lg transition-all bg-primary text-white hover:bg-primary-light shadow-primary/20"
                                 >
                                     Join Now <ChevronRight size={14} />

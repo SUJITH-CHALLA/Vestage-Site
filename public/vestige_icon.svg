@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Stylized V with Leaf -->
+  <path d="M30 30 L50 85 L85 20 Q70 45 50 65 Q65 60 75 40" fill="none" stroke="#DAA520" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Leaf Detail -->
+  <path d="M50 65 Q65 60 75 40 Q65 50 50 65 Z" fill="#DAA520" stroke="none"/>
+  <!-- Star/Sparkle -->
+  <path d="M85 15 L88 22 L95 25 L88 28 L85 35 L82 28 L75 25 L82 22 Z" fill="#DAA520"/>
+</svg>
