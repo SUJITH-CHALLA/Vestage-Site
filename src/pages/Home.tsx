@@ -5,7 +5,7 @@ import Products from '../components/Products';
 import Journey from '../components/Journey';
 import Testimonials from '../components/Testimonials';
 import Events from '../components/Events';
-import { Phone, MessageCircle, ShoppingBag, Users, Coins, ChevronDown, Volume2 } from 'lucide-react';
+import { Phone, MessageCircle, ShoppingBag, Users, Coins, ChevronDown, Volume2, Video } from 'lucide-react';
 import { motion } from 'framer-motion';
 import LogoFlow from '../components/LogoFlow';
 
@@ -126,6 +126,9 @@ const Home = () => {
                             <MessageCircle size={24} />
                         </a>
                     </div>
+
+                    {/* Mobile Floating Zoom Button */}
+
 
                     {/* Hero Image */}
                     <motion.div
@@ -285,6 +288,19 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            {/* Mobile Floating Zoom Button */}
+            <motion.a
+                href="https://us06web.zoom.us/j/6317858117?pwd=b7ZNbpWixPcKhSSwYoSNQoE9M9zlCf.1&omn=81506785363"
+                target="_blank"
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                className="fixed bottom-24 right-4 z-[60] md:hidden bg-primary text-white px-4 py-2 rounded-full shadow-lg shadow-primary/30 flex items-center gap-2 border border-white/20 backdrop-blur-sm"
+                whileHover={{ scale: 1.05 }}
+                whileTap={{ scale: 0.95 }}
+            >
+                <Video size={16} className="animate-pulse" />
+                <span className="font-bold text-xs">Join Now</span>
+            </motion.a>
         </Layout >
     );
 };
