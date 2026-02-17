@@ -5,12 +5,13 @@ const Events = () => {
     const events = [
         {
             id: 1,
-            title: "Weekly Success Seminar",
-            title_te: "వారపు విజయోత్సవ సమావేశం",
-            date: "Every Sunday, 10 AM",
-            location: "Vestige Office, Warangal",
-            image: "https://placehold.co/600x400/e2e8f0/1e293b?text=Seminar",
-            type: "Upcoming"
+            title: "Daily Zoom Meeting & Orientation",
+            title_te: "రోజువారీ జూమ్ సమావేశం & ఓరియంటేషన్",
+            date: "Daily, Online",
+            location: "Zoom ID: 631 785 8117 | Pass: 123456",
+            image: "https://placehold.co/600x400/2563EB/ffffff?text=Zoom+Meeting",
+            type: "Upcoming",
+            link: "https://us06web.zoom.us/j/6317858117?pwd=b7ZNbpWixPcKhSSwYoSNQoE9M9zlCf.1&omn=81506785363"
         },
         {
             id: 2,
@@ -50,8 +51,8 @@ const Events = () => {
                         </p>
                     </div>
 
-                    <a href="tel:+919876543210" className="hidden md:flex bg-primary text-white px-6 py-3 rounded-full font-bold text-sm items-center gap-2 hover:bg-primary-light transition-colors whitespace-nowrap">
-                        <Calendar size={16} /> Join Next Meeting
+                    <a href="https://us06web.zoom.us/j/6317858117?pwd=b7ZNbpWixPcKhSSwYoSNQoE9M9zlCf.1&omn=81506785363" className="hidden md:flex bg-primary text-white px-6 py-3 rounded-full font-bold text-sm items-center gap-2 hover:bg-primary-light transition-colors whitespace-nowrap">
+                        <Calendar size={16} /> Join Zoom Meeting
                     </a>
                 </div>
 
@@ -64,6 +65,7 @@ const Events = () => {
                             viewport={{ once: true }}
                             transition={{ delay: index * 0.2 }}
                             className="group relative overflow-hidden rounded-3xl shadow-lg cursor-pointer"
+                            onClick={() => event.link && window.open(event.link, '_blank')}
                         >
                             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent z-10" />
 
@@ -109,7 +111,7 @@ const Events = () => {
                             <p className="text-sm text-text-secondary">We conduct daily Zoom meetings and physical training sessions.</p>
                         </div>
                     </div>
-                    <a href="tel:+919876543210" className="w-full md:w-auto px-6 py-3 bg-secondary text-white rounded-xl font-bold text-center hover:bg-secondary-light transition-colors">
+                    <a href="tel:+919491236512" className="w-full md:w-auto px-6 py-3 bg-secondary text-white rounded-xl font-bold text-center hover:bg-secondary-light transition-colors">
                         Call Support Team
                     </a>
                 </div>

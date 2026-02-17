@@ -98,7 +98,7 @@ const Home = () => {
                             <motion.a
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
-                                href="tel:+919876543210"
+                                href="tel:+919491236512"
                                 className="w-full sm:w-auto px-6 py-3 bg-accent-green text-white font-bold rounded-xl shadow-lg shadow-accent-green/20 flex items-center justify-center gap-2 hover:bg-[#1DA851] transition-colors text-base"
                             >
                                 <Phone size={20} className="animate-pulse" />
@@ -119,10 +119,10 @@ const Home = () => {
 
                     {/* Mobile Fixed Bottom Bar (App-like feel) */}
                     <div className="fixed bottom-0 left-0 right-0 p-4 bg-white border-t border-gray-100 shadow-[0_-4px_20px_rgba(0,0,0,0.1)] md:hidden z-50 flex gap-3">
-                        <a href="tel:+919876543210" className="flex-1 bg-accent-green text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 shadow-lg">
+                        <a href="tel:+919491236512" className="flex-1 bg-accent-green text-white font-bold py-3 rounded-xl flex items-center justify-center gap-2 shadow-lg">
                             <Phone size={20} /> {t('call_now')}
                         </a>
-                        <a href="https://wa.me/919876543210" className="bg-[#25D366]/10 text-[#25D366] font-bold p-3 rounded-xl flex items-center justify-center">
+                        <a href="https://wa.me/919491236512" className="bg-[#25D366]/10 text-[#25D366] font-bold p-3 rounded-xl flex items-center justify-center">
                             <MessageCircle size={24} />
                         </a>
                     </div>
@@ -266,7 +266,7 @@ const Home = () => {
                     <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                         <motion.a
                             whileHover={{ scale: 1.05 }}
-                            href="https://wa.me/919876543210"
+                            href="https://wa.me/919491236512"
                             target="_blank"
                             rel="noreferrer"
                             className="w-full sm:w-auto px-8 py-5 bg-[#25D366] text-white rounded-full font-bold text-lg shadow-lg flex items-center justify-center gap-3 hover:bg-[#1ebd59] transition-all"
@@ -276,7 +276,7 @@ const Home = () => {
                         </motion.a>
                         <motion.a
                             whileHover={{ scale: 1.05 }}
-                            href="tel:+919876543210"
+                            href="tel:+919491236512"
                             className="w-full sm:w-auto px-8 py-5 bg-white text-primary rounded-full font-bold text-lg shadow-lg flex items-center justify-center gap-3 hover:bg-gray-100 transition-all"
                         >
                             <Phone size={24} />

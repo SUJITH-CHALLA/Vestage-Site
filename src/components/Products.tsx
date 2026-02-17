@@ -49,7 +49,7 @@ const ProductSection = ({ title, title_te, icon: Icon, products, indexOffset = 0
 
                             <div className="mt-auto">
                                 <a
-                                    href="https://wa.me/919876543210?text=I want to buy multiple products"
+                                    href="https://wa.me/919491236512?text=I want to buy multiple products"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="w-full py-2 bg-gray-50 hover:bg-primary hover:text-white text-gray-700 text-xs font-bold rounded-lg transition-all flex items-center justify-center gap-2 border border-gray-200 hover:border-primary"

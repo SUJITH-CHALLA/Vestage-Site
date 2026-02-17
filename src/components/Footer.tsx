@@ -17,11 +17,12 @@ const Footer = () => {
                     <div>
                         <h3 className="text-lg font-semibold mb-4">{t('contact')}</h3>
                         <div className="space-y-2">
-                            <a href="tel:+919876543210" className="flex items-center text-gray-300 hover:text-white">
-                                <Phone size={18} className="mr-2" /> +91 98765 43210
+                            <a href="tel:+919491236512" className="flex items-center text-gray-300 hover:text-white">
+                                <Phone size={18} className="mr-2" /> +91 94912 36512
                             </a>
                             <div className="flex items-center text-gray-300">
-                                <MapPin size={18} className="mr-2" /> Village Name, Mandal, District
+                                <MapPin size={18} className="mr-2 min-w-[18px]" />
+                                <span className="text-xs">Madamanuru, Monubole (Mandal), Nellore (Dist), 524405, AP</span>
                             </div>
                         </div>
                     </div>
